@@ -10,10 +10,10 @@
 1. A review: The Self-Driving Car’s Requirements and The Challenges it Faces
 2. Object Detection, Recognition, and Tracking Algorithms for ADAS：A Study on Recent Trends
 3. Survey of Technology in Autonomous Valet Parking System
-4. Applications of Computer Vision in Autonomous Vehicles: Methods, Challenges and Future Directions
+4. **Applications of Computer Vision in Autonomous Vehicles: Methods, Challenges and Future Directions**
 5. Potential sources of sensor data anomalies for autonomous vehicles: An overview from road vehicle safety perspective
 6. A review of occluded objects detection in real complex scenarios for autonomous driving
-7. A survey on deep learning approaches for data integration in Autonomous Driving System
+7. **A survey on deep learning approaches for data integration in Autonomous Driving System**
 8. Milestones in Autonomous Driving and Intelligent Vehicles
 9. Perception and sensing for autonomous vehicles under adverse weather conditions: A survey
 

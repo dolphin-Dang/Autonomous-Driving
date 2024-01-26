@@ -1,4 +1,4 @@
-# 了解
+# 概况了解
 自动驾驶方向：
 + 算法：感知、规划、控制
   + 感知算法工程师：传统ML、CV、NLP
@@ -10,3 +10,15 @@
   + 规划算法工程师：包括路径规划和速度规划。
 + 仿真
 + 测试
+
+**学习重点：感知算法，CV。**
+
+# 论文笔记
+*important:**
+
+
++ papers/综述/综述note.md
+  + A review: The Self-Driving Car’s Requirements and The Challenges it Faces
+  + A Systematic Review of Perception System and Simulators for Autonomous Vehicles Research
+  + Applications of Computer Vision in Autonomous Vehicles: Methods, Challenges and Future Directions*
+  + A survey on deep learning approaches for data integration in autonomous driving system*

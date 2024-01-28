@@ -22,3 +22,7 @@
   + A Systematic Review of Perception System and Simulators for Autonomous Vehicles Research
   + Applications of Computer Vision in Autonomous Vehicles: Methods, Challenges and Future Directions*
   + A survey on deep learning approaches for data integration in autonomous driving system*
++ Object Detection
+  + 综述：Object Detection in 20 Years: A Survey
++ BEVFormer
+  + BEVFormer: Learning Bird’s-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers

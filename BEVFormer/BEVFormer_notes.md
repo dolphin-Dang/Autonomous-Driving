@@ -1,3 +1,5 @@
+[一文读懂BEVFormer -- 知乎](https://zhuanlan.zhihu.com/p/538490215)
+
 # 概述
 BEVFormer主要解决一个特征级融合问题，从纯camera数据得到BEV视角。得到整体的特征空间之后可以完成各项下游任务。
 

@@ -17,7 +17,7 @@
 *important:**
 
 
-+ papers/综述/综述note.md
++ survey/ADS/survey_note.md
   + A review: The Self-Driving Car’s Requirements and The Challenges it Faces
   + A Systematic Review of Perception System and Simulators for Autonomous Vehicles Research
   + Applications of Computer Vision in Autonomous Vehicles: Methods, Challenges and Future Directions*
@@ -26,3 +26,6 @@
   + 综述：Object Detection in 20 Years: A Survey
 + BEVFormer
   + BEVFormer: Learning Bird’s-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers
++ DETR
+  + End-to-End Object Detection with Transformers
+  + DEFORMABLE DETR: DEFORMABLE TRANSFORMERS FOR END-TO-END OBJECT DETECTION

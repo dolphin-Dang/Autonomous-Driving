@@ -1,4 +1,6 @@
 # End-to-End Object Detection with Transformers
+[DETR-github](https://github.com/facebookresearch/detr)
+
 ## 概述
 重点：
 + end-to-end：大多数以前的操作需要hand-designed components，比如设置anchor、NMS。其中NMS训练、部署困难。
@@ -37,5 +39,9 @@ $L_{box}=L_{iou}+L1_{loss}$
 
 ### DETR结构细节
 + object query相当于可学习的anchor，每一个负责图像一部分区间里的查询（原文Fig.7）
+
+
+# DEFORMABLE DETR: DEFORMABLE TRANSFORMERS FOR END-TO-END OBJECT DETECTION
+[Deformable DETR-github](https://github.com/fundamentalvision/Deformable-DETR)
 
 

@@ -14,6 +14,12 @@ class DETR(nn.Module):
     '''
     def __init__(self, n_class, hidden_size, n_head, 
                 n_encoder, n_decoder, backbone, N):
+        '''
+        Input:
+            hidden_size: embedding dim of transformer and the channel num of backbone output.
+            N: num of bbox DETR predicts.
+            backbone: outputs feature map of hidden_size channels.
+        '''
         super().__init__()
         # self.n_class = n_class
         # self.hidden_size = hidden_size
@@ -33,6 +39,7 @@ class DETR(nn.Module):
 
         self.obj_query = nn.Parameter(torch.rand(N, hidden_size))
         # make sure K >= max(*featureMap.shape[-2:]) (i.e. H & W)
+        # K = 50 in DETR src code
         self.row_embd = nn.Parameter(torch.rand(K, hidden_size//2))
         self.col_embd = nn.Parameter(torch.rand(K, hidden_size//2))
 

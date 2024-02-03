@@ -45,3 +45,9 @@ $L_{box}=L_{iou}+L1_{loss}$
 [Deformable DETR-github](https://github.com/fundamentalvision/Deformable-DETR)
 
 传统的attention需要更新权重，学习某个点对应哪些位置比较重要，这个学习过程开销很大；而deformable attention则通过一个全连接层来找到对应点，并在此基础上进行attention计算。
+
+## multi-scale attention
+从backbone抽多尺度特征，一起进行attention计算。在多尺度中加入层数的embedding，让模型知道某个feature来自于哪一层。
+
++ encoder中，attention变成multi-scale。
++ decoder中，cross-attention是obj_query和multi-scale feature计算；self-attention是obj_query自己计算。

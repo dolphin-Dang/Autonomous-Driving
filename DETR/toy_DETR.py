@@ -61,5 +61,5 @@ class DETR(nn.Module):
         pos_embd_batch = pos_embd.unsqueeze(0).repeat((config["batch_size"])) # (bs, H*W, hidden_size)
 
         cnn_feature = cnn_feature.flatten(2).permute(0, 2, 1) # (bs, H*W, hidden_size)
-        output = self.transformer(pos + cnn_feature, self.obj_query.unsqueeze(0).repeat((config["batch_size"])))
+        output = self.transformer(pos_embd_batch + cnn_feature, self.obj_query.unsqueeze(0).repeat((config["batch_size"])))
         return self.linear_class(output), self.linear_bbox(output).sigmoid()

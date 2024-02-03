@@ -44,4 +44,4 @@ $L_{box}=L_{iou}+L1_{loss}$
 # DEFORMABLE DETR: DEFORMABLE TRANSFORMERS FOR END-TO-END OBJECT DETECTION
 [Deformable DETR-github](https://github.com/fundamentalvision/Deformable-DETR)
 
-
+传统的attention需要更新权重，学习某个点对应哪些位置比较重要，这个学习过程开销很大；而deformable attention则通过一个全连接层来找到对应点，并在此基础上进行attention计算。

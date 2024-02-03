@@ -314,7 +314,7 @@ class BEVBlock(nn.Module):
         super(BEVBlock, self).__init__()
         # BEV query: (output_size^2, embd_size)
         # learnable position embedding
-        self.bev_query = nn.Embedding(config["output_size"]**2, config["embd_size"])
+        self.bev_query = nn.Parameter(config["output_size"]**2, config["embd_size"])
         self.EncoderBlock_list = [EncoderBlock() for _ in range(config["num_block"])]
 
     def forward(self, history_bev, single_frame_feature):
@@ -331,7 +331,7 @@ class BEVBlock(nn.Module):
             bev_feature: Tensor of size (bs, config["output_size"]^2, config["embd_size"])
         """
 
-        bev_feature = self.bev_query.weight
+        bev_feature = self.bev_query
         if history_bev == None:
             history_bev = bev_feature
 
